@@ -1,10 +1,10 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigation } from "react-router-dom";
 import { Card } from "../Components/UI/Card";
 
 export const Movie = () => {
+
   const moviesData = useLoaderData();
   console.log(moviesData);
-
 
   return (
     <ul className="container grid grid-four--cols">
