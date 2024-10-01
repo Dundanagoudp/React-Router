@@ -15,8 +15,9 @@
 export const getMoviesData = async () => {
       try {
         const response = await fetch(
-          "https://www.omdbapi.com/?apikey=e00c85c8&s=kannada&page=1"
+          `https://www.omdbapi.com/?apikey=${import.meta.env.VITE_SOME_KEY}&s=kannada&page=1`
         );
+        
     
         // Check if the response is successful
         if (!response.ok) {
