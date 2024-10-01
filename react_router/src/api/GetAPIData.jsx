@@ -28,8 +28,8 @@ export const getMoviesData = async () => {
         const data = await response.json();
         return data;
       } catch (error) {
-        console.error("Error fetching movie data:", error);  // Correct error logging
-        return null;  // Return null or handle error case in your component
+        console.error("Error fetching movie data:", error);  
+        return null;  
       }
     };
     
