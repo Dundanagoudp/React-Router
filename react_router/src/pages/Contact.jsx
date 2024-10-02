@@ -1,3 +1,15 @@
+import { Form } from "react-router-dom";
+
+export const contactData = async ({ request }) => {
+  try {
+    const res = await request.formData();  // Await the formData
+    const data = Object.fromEntries(res);  // Correct method
+    console.log(data);  // Form data will be logged as a plain object
+    return null;
+  } catch (error) {
+    console.log(error.message);
+  }
+};
 
 export const Contact=()=>{
       return (
