@@ -4,26 +4,25 @@ export const Footer=()=>{
             <footer class="section-footer">
     <div class="footer-container container">
       <div class="content_1">
-        <img src="./images/logo.png" alt="logo" />
-        <p>
+      <img src="./logo.png" alt="logo" style={{ width: '100px', height: '100px' }} />
+      <p>
         "Welcome to Chetan Patil's developer corner, <br />
         where innovation meets code!"
         </p>
         <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
       </div>
       <div class="content_2">
-        <h4>SHOPPING</h4>
-        <a href="#">Computer Store</a>
-        <a href="#">Laptop Store</a>
-        <a href="#">Accessories</a>
-        <a href="#">Sales & Discount</a>
+        <h4>quick links</h4>
+        <a href="#">privacy policy</a>
+        <a href="#">terms and condition</a>
+        <a href="#">about</a>
       </div>
       <div class="content_3">
         <h4>Experience</h4>
         <a href="./contact.html">Contact Us</a>
-        <a href="" target="_blank"> Payment Method </a>
-        <a href="" target="_blank"> Delivery </a>
-        <a href="" target="_blank"> Return and Exchange </a>
+        <a href="" target="_blank"> BOOK NOW </a>
+        <a href="" target="_blank"> DETAILS </a>
+        {/* <a href="" target="_blank"> Return and Exchange </a> */}
       </div>
       <div class="content_4">
         <h4>NEWSLETTER</h4>
